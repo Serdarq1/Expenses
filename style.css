@@ -1,0 +1,166 @@
+body{
+    background-color: hsl(27, 66%, 92%);
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+.top-section{
+    background-color: hsl(10, 79%, 65%);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.left-section p{
+    color: white;
+}
+
+.left-money{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.right-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bottom-section{
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bottom-section div{
+    text-align: center;
+}
+
+.spent{
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.c1 , .c2{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.c2{
+    margin-left: -22px;
+    
+}
+
+.c1{
+    background-color: transparent;
+    border: 1px solid white;
+    z-index: 1;
+}
+
+.charts{
+    display: flex;
+    justify-content: space-between;
+    color: hsl(28, 10%, 53%);
+}
+
+.total-month{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.this-month{
+    font-size: 15px;
+    color: hsl(28, 10%, 53%);
+    margin-bottom: 0;
+}
+
+.this-month-money{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 5px;
+    color: darkred;
+}
+
+.increase{
+    text-align: end;
+    margin-bottom: 0;
+    color: lightgreen;
+}
+
+.last-month{
+    color: hsl(28, 10%, 53%);
+    margin-top: 5px;
+}
+
+.line{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: lightgray;    
+    height: 1px;
+    width: 370px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title, .title2, .title3, .title4, .title5, .title6, .title7{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+    position: absolute;
+    top: 65px;
+    left: -2px;
+}
+
+.daily-spent:hover, .daily-spent2:hover, .daily-spent3:hover, .daily-spent4:hover, .daily-spent5:hover, .daily-spent6:hover, .daily-spent7:hover{
+    opacity: 0.7;
+}
+
+.title2{
+    top: 15px;
+    left: -4px;
+}
+
+.title3{
+    top: -38px;
+    left: -5px;
+}
+
+.title4{
+    top: 25px;
+}
+
+.title5{
+    top: 50px;
+    left: -5px;
+}
+
+.title6{
+    top: -10px;
+    left: -5px;
+}
+
+.title7{
+    top: 45px;
+    left: -5px;
+}
+
+.display{
+    display: none;
+    transition: 0.3s;
+}
